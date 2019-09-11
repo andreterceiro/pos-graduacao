@@ -1,0 +1,35 @@
+Arquitetura de Software e Padrões de Projeto
+
+Disciplina do curso de Especialização em Engenharia de Software
+
+Programa da Disciplina
+
+    Fundamentos
+        Visão Geral da Arquitetura de Software
+        Acoplamento, Coesão, Responsabilidades
+        Visões Arquiteturais
+        Documentação de Arquitetura
+
+    Estilos Arquiteturais
+        Cliente/servidor
+        Camadas
+        Orientado a Mensagens
+        Orientado a Serviços
+        Aspectos
+        Arquiteturas Distribuídas
+
+    Arquitetura Web
+        Web Services
+        Integração de Sistemas
+        Comunicação e Tolerância a Falhas
+
+    Padrões de Projeto, Arquiteturais e de Integração
+        Layers e MVC
+        Front Controller
+        DAO
+        Factory
+        Command
+        Strategy
+        Service Layer
+        Proxy/Gateway
+        Padrões de Projeto,  Arquiteturais e de Integração 

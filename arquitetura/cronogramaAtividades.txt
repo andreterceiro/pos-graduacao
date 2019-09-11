@@ -1,0 +1,38 @@
+Arquitetura de Software e Padrões de Projeto 
+Turma 2013 - Mooca
+Cronograma de Atividades
+     <a ser definido>
+
+Planejamento de Aulas
+
+    Aula 01 : 27/04
+    Apresentação do curso
+    Arquitetura de software
+    Modelagem Arquitetural
+    Aula 02 : 04/05
+    Estilos arquiteturais e arquitetura em camadas
+    Introdução a Design Patterns
+    O Padrão Arquitetural MVC
+
+    Aula 03 : 11/05
+    Padrões de Projeto
+
+    Aula 04 : 18/05
+    Estilos Arquiteturais
+    Arquitetura Web
+    Alta disponibilidade e Tolerância a Falhas
+
+    Aula 05 : 25/05
+    Integração de Sistemas e seus problemas
+    Padrões de Projeto “avançados”
+
+    Aula 06 : 01/06
+    Arquitetura de Web Services
+    Introdução a Aspectos
+    Revisão Padrões de Projeto
+     
+    Aula 07: 08/06 
+    1a entrega do trabalho final
+      > Dúvidas
+      > Apresentação
+      > Arguição  

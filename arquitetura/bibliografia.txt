@@ -1,0 +1,11 @@
+Arquitetura de Software e Padrões de Projeto
+
+Disciplina do curso de Especialização em Engenharia de Software
+
+Referências Bibliográficas
+
+    Larman, Craig; Utilizando UML e padrões :  uma introdução à análise e ao projeto orientados a objetos e ao processo unificado.  2a.  ed.
+    Fowler, Martin; Kendal, Scott: UML essencial :  um breve guia para a linguagem-padrão de modelagem de objetos. 3a. ed.
+    Fowler, Martin; Patterns of enterprise application architecture. C2003.
+    Gamma, Erich [et al]; Padrões de projeto :  soluções reutilizáveis de software orientado a objetos. 2000.
+    Bass, Len; Clements, Paul; Kazman, Rick; Software architecture in practice. 2a. ed.  
