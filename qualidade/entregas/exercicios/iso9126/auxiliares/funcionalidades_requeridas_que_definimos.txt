@@ -1,0 +1,23 @@
+- Nao pode ter limite de linhas e colunas.
+- Nao tem que ter formatação de alinhamento.
+- Nao suporta imagens.
+- Suportar o padrão UNICODE. Possibilidade de alteração do tipo de codificação de caracteres do texto. 
+- Suporte a internacionalização.
+- Inserir caractere especial.
+- Entender a quebra de linhas universal, do sistema operacional.
+- Opção para impressão.
+- Opção de buscar e substituir. Destacar a busca.
+- Velocidade de leitura e gravação.
+- Possibilidade de Copiar, Colar e Recortar texto.
+- Desfazer e Refazer uma operação várias vezes.
+- Não ter formatação de cores da fonte individual.
+- Ter formatação de tamanho e estilo da fonte.
+- Possibilidade de Zoom.
+- Formatação das cores do fundo e do texto (Global).
+- Ter menu e teclas de atalho bem definidas.
+- Tem que ter tela de Ajuda.
+- Mostrar tooltip nos itens do menu.
+- Tem que ter opção para visualizar Linha e Coluna atual.
+- Opção de ir para uma determinar linha.
+- Ao salvar deixar escolher a extensão.
+
