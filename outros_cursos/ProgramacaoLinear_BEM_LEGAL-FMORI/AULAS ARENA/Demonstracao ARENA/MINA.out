@@ -1,0 +1,89 @@
+
+                                      ARENA Simulation Results
+                                            Fernando Mori
+
+                                  Summary for Replication 1 of 1
+
+Project: Pedagio com 3 Estacoes                                      Run execution date : 8/ 8/2006
+Analyst: Darci Prado                                                 Model revision date: 8/ 8/2006
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+DESCARGA NO BRITADOR.VATimePerEntity        2.9596     (Insuf)    2.1407     3.8864        189    
+DESCARGA NO BRITADOR.WaitTimePerEntity      3.7699     (Insuf)    .00000     10.337        189    
+DESCARGA NO BRITADOR.TotalTimePerEntity     6.7296     (Insuf)    2.1494     13.908        189    
+VEICULO.VATime                              .00000     .00000     .00000     .00000       3780    
+VEICULO.NVATime                             .00000     .00000     .00000     .00000       3780    
+VEICULO.WaitTime                            .31667     (Corr)     .00000     .63333       3780    
+VEICULO.TranTime                            .66667     (Corr)     .66667     .66667       3780    
+VEICULO.OtherTime                           .00000     .00000     .00000     .00000       3780    
+VEICULO.TotalTime                           .98333     (Corr)     .66667     1.3000       3780    
+CARGA.VATime                                    --         --         --         --          0
+CARGA.NVATime                                   --         --         --         --          0
+CARGA.WaitTime                                  --         --         --         --          0
+CARGA.TranTime                                  --         --         --         --          0
+CARGA.OtherTime                                 --         --         --         --          0
+CARGA.TotalTime                                 --         --         --         --          0
+ENTRA NA ESTEIRA.Queue.WaitingTime          .31667     (Corr)     .00000     .63333       3780    
+DESCARGA NO BRITADOR.Queue.WaitingTime      3.7882     (Insuf)    .00000     10.337        190    
+Queue 1.WaitingTime                         .10220     (Insuf)    .00000     5.5545         84    
+Queue 2.WaitingTime                         .15365     (Insuf)    .00000     6.7916         65    
+Queue 3.WaitingTime                         .06120     (Insuf)    .00000     2.8763         47    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+VEICULO.WIP                                 14.171     .41168     .00000     28.000     8.0000    
+CARGA.WIP                                   .00000     (Insuf)    .00000     .00000     .00000    
+BRITADOR_R.NumberBusy                       .93606     (Insuf)    .00000     1.0000     1.0000    
+BRITADOR_R.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+BRITADOR_R.Utilization                      .93606     (Insuf)    .00000     1.0000     1.0000    
+ATENDENTE1.NumberBusy                       .54986     (Insuf)    .00000     1.0000     1.0000    
+ATENDENTE1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE1.Utilization                      .54986     (Insuf)    .00000     1.0000     1.0000    
+ATENDENTE2.NumberBusy                       .55416     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE2.Utilization                      .55416     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE3.NumberBusy                       .57749     (Insuf)    .00000     1.0000     1.0000    
+ATENDENTE3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE3.Utilization                      .57749     (Insuf)    .00000     1.0000     1.0000    
+ENTRA NA ESTEIRA.Queue.NumberInQueue        1.9950     .12724     .00000     19.000     .00000    
+DESCARGA NO BRITADOR.Queue.NumberInQueue    1.2090     (Corr)     .00000     4.0000     1.0000    
+Queue 1.NumberInQueue                       .01431     (Insuf)    .00000     2.0000     .00000    
+Queue 2.NumberInQueue                       .01665     (Insuf)    .00000     2.0000     .00000    
+Queue 3.NumberInQueue                       .00479     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+DESCARGA NO BRITADOR Number Out             189.00    
+DESCARGA NO BRITADOR Number In              191.00    
+DESCARGA NO BRITADOR Accum Wait Time        712.52    
+DESCARGA NO BRITADOR Accum VA Time          559.36    
+VEICULO.NumberIn                            3788.0    
+VEICULO.NumberOut                           3780.0    
+CARGA.NumberIn                              .00000    
+CARGA.NumberOut                             .00000    
+BRITADOR_R.NumberSeized                     190.00    
+BRITADOR_R.ScheduledUtilization             .93606    
+ATENDENTE1.NumberSeized                     66.000    
+ATENDENTE1.ScheduledUtilization             .54986    
+ATENDENTE2.NumberSeized                     65.000    
+ATENDENTE2.ScheduledUtilization             .55416    
+ATENDENTE3.NumberSeized                     65.000    
+ATENDENTE3.ScheduledUtilization             .57749    
+System.NumberOut                            3780.0    
+
+
+Simulation run time: 0.40 minutes.
+Simulation run complete.

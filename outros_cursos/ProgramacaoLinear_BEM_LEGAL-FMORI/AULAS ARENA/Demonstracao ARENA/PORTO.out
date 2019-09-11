@@ -1,0 +1,87 @@
+
+                                      ARENA Simulation Results
+                                            Fernando Mori
+
+                                  Summary for Replication 1 of 1
+
+Project: PORTO                                                       Run execution date : 8/ 8/2006
+Analyst: Darci Prado                                                 Model revision date: 8/ 8/2006
+
+Replication ended at time      : 1440.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Atendimento.WaitTimePerEntity               .00000     (Insuf)    .00000     .00000         49    
+Atendimento.VATimePerEntity                 6.1425     (Insuf)    4.6835     7.5446         49    
+Atendimento.TotalTimePerEntity              6.1425     (Insuf)    4.6835     7.5446         49    
+TREM.VATime                                 .00000     .00000     .00000     .00000       2360    
+TREM.NVATime                                .00000     .00000     .00000     .00000       2360    
+TREM.WaitTime                               .15833     .00206     .00000     .31667       2360    
+TREM.TranTime                               .50000     (Corr)     .50000     .50000       2360    
+TREM.OtherTime                              .00000     .00000     .00000     .00000       2360    
+TREM.TotalTime                              .65833     .00206     .50000     .81667       2360    
+NAVIO.VATime                                6.1425     (Insuf)    4.6835     7.5446         49    
+NAVIO.NVATime                               .00000     (Insuf)    .00000     .00000         49    
+NAVIO.WaitTime                              .00000     (Insuf)    .00000     .00000         49    
+NAVIO.TranTime                              5.0000     (Insuf)    5.0000     5.0000         49    
+NAVIO.OtherTime                             .00000     (Insuf)    .00000     .00000         49    
+NAVIO.TotalTime                             11.142     (Insuf)    9.6835     12.544         49    
+ENTRA NO TRILHO1.Queue.WaitingTime          .15827     .00206     .00000     .31667       2361    
+ENTRA NO TRILHO 2.Queue.WaitingTime         .00000     .00000     .00000     .00000       2360    
+Atendimento.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         49    
+Seize Patio.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         49    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TREM.WIP                                    1.0789     .05022     .00000     20.000     20.000    
+NAVIO.WIP                                   .37915     (Insuf)    .00000     3.0000     .00000    
+ESPACO.NumberBusy                           .24304     (Insuf)    .00000     3.0000     .00000    
+ESPACO.NumberScheduled                      3.0000     (Insuf)    3.0000     3.0000     3.0000    
+ESPACO.Utilization                          .08101     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE1.NumberBusy                       .17139     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE1.Utilization                      .17139     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE2.NumberBusy                       .03322     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE2.Utilization                      .03322     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE3.NumberBusy                       .00441     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE3.Utilization                      .00441     (Insuf)    .00000     1.0000     .00000    
+ENTRA NO TRILHO1.Queue.NumberInQueue        .25949     .01208     .00000     19.000     19.000    
+ENTRA NO TRILHO 2.Queue.NumberInQueue       .00000     .00000     .00000     1.0000     .00000    
+Atendimento.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Seize Patio.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Atendimento Number In                       49.000    
+Atendimento Number Out                      49.000    
+Atendimento Accum Wait Time                 .00000    
+Atendimento Accum VA Time                   300.98    
+TREM.NumberIn                               2380.0    
+TREM.NumberOut                              2360.0    
+NAVIO.NumberIn                              49.000    
+NAVIO.NumberOut                             49.000    
+ESPACO.NumberSeized                         49.000    
+ESPACO.ScheduledUtilization                 .08101    
+ATENDENTE1.NumberSeized                     40.000    
+ATENDENTE1.ScheduledUtilization             .17139    
+ATENDENTE2.NumberSeized                     8.0000    
+ATENDENTE2.ScheduledUtilization             .03322    
+ATENDENTE3.NumberSeized                     1.0000    
+ATENDENTE3.ScheduledUtilization             .00441    
+System.NumberOut                            2409.0    
+
+
+Simulation run time: 0.38 minutes.
+Simulation run complete.

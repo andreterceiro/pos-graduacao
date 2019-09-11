@@ -1,0 +1,78 @@
+
+                                      ARENA Simulation Results
+                                            Fernando Mori
+
+                                  Summary for Replication 1 of 1
+
+Project: Pedagio com 3 Estacoes                                      Run execution date : 8/ 8/2006
+Analyst: Darci Prado                                                 Model revision date: 8/ 8/2006
+
+Replication ended at time      : 0.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+VEICULO.VATime                                  --         --         --         --          0
+VEICULO.NVATime                                 --         --         --         --          0
+VEICULO.WaitTime                                --         --         --         --          0
+VEICULO.TranTime                                --         --         --         --          0
+VEICULO.OtherTime                               --         --         --         --          0
+VEICULO.TotalTime                               --         --         --         --          0
+CARGA.VATime                                    --         --         --         --          0
+CARGA.NVATime                                   --         --         --         --          0
+CARGA.WaitTime                                  --         --         --         --          0
+CARGA.TranTime                                  --         --         --         --          0
+CARGA.OtherTime                                 --         --         --         --          0
+CARGA.TotalTime                                 --         --         --         --          0
+Seize PLATAFORMA.Queue.WaitingTime              --         --         --         --          0
+Request 1.Queue.WaitingTime                     --         --         --         --          0
+Seize Patio.Queue.WaitingTime                   --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+VEICULO.WIP                                 .00000     (Insuf)    .00000     .00000     .00000    
+CARGA.WIP                                   .00000     (Insuf)    .00000     .00000     .00000    
+ESPACO.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+ESPACO.NumberScheduled                      .00000     (Insuf)    3.0000     3.0000     3.0000    
+ESPACO.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+ATENDENTE1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+ATENDENTE1.NumberScheduled                  .00000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+ATENDENTE2.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+ATENDENTE2.NumberScheduled                  .00000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE2.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+ATENDENTE3.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+ATENDENTE3.NumberScheduled                  .00000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE3.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Seize PLATAFORMA.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Request 1.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Seize Patio.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+VEICULO.NumberIn                            .00000    
+VEICULO.NumberOut                           .00000    
+CARGA.NumberIn                              .00000    
+CARGA.NumberOut                             .00000    
+ESPACO.NumberSeized                         .00000    
+ESPACO.ScheduledUtilization                 .00000    
+ATENDENTE1.NumberSeized                     .00000    
+ATENDENTE1.ScheduledUtilization             .00000    
+ATENDENTE2.NumberSeized                     .00000    
+ATENDENTE2.ScheduledUtilization             .00000    
+ATENDENTE3.NumberSeized                     .00000    
+ATENDENTE3.ScheduledUtilization             .00000    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.17 minutes.
+Simulation run complete.

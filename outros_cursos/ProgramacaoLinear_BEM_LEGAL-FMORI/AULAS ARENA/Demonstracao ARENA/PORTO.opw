@@ -1,0 +1,18 @@
+[RESOURCES]
+ESPACO
+ATENDENTE1
+ATENDENTE2
+ATENDENTE3
+[VARIABLES]
+Atendimento.NumberIn
+CHEGADA DO NAVIO.NumberOut
+Atendimento.NumberOut
+Atendimento.WaitTime
+Dispose 4.NumberOut
+CHEGADA DO TREM.NumberOut
+Atendimento.VATime
+PILHA
+ESTEIRA
+Encerramento.NumberOut
+ESTEIRA_TREM
+CONTA_TREM

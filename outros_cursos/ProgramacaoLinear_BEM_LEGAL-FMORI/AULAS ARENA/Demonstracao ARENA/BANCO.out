@@ -1,0 +1,271 @@
+
+                                      ARENA Simulation Results
+                                  Fernando Mori - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Pedagio com 3 Estacoes                                      Run execution date : 7/30/2008
+Analyst: Darci Prado                                                 Model revision date: 7/30/2008
+
+Replication ended at time      : 21600.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+ATENDIMENTO NO CAIXA.TotalTimePerEntity     117.66     2.9714     60.371     179.83        597    
+ATENDIMENTO NO CAIXA.WaitTimePerEntity      .00000     .00000     .00000     .00000        597    
+ATENDIMENTO NO CAIXA.VATimePerEntity        117.66     2.9714     60.371     179.83        597    
+ATENDIMENTO NO CAIXA.TotalCostPerEntity     .00000     .00000     .00000     .00000        597    
+ATENDIMENTO NO CAIXA.WaitCostPerEntity      .00000     .00000     .00000     .00000        597    
+ATENDIMENTO NO CAIXA.VACostPerEntity        .00000     .00000     .00000     .00000        597    
+PESSOA.VATime                               117.69     2.9714     60.371     179.83        596    
+PESSOA.NVATime                              .00000     .00000     .00000     .00000        596    
+PESSOA.WaitTime                             594.48     (Corr)     .00000     938.13        596    
+PESSOA.TranTime                             70.000     7.2801E-15 70.000     70.000        596    
+PESSOA.OtherTime                            .00000     .00000     .00000     .00000        596    
+PESSOA.TotalTime                            782.18     (Corr)     149.79     1154.0        596    
+PESSOA.VACost                               .00000     .00000     .00000     .00000        596    
+PESSOA.NVACost                              .00000     .00000     .00000     .00000        596    
+PESSOA.WaitCost                             .00000     .00000     .00000     .00000        596    
+PESSOA.TranCost                             .00000     .00000     .00000     .00000        596    
+PESSOA.OtherCost                            .00000     .00000     .00000     .00000        596    
+PESSOA.TotalCost                            .00000     .00000     .00000     .00000        596    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Entity 1.VACost                                 --         --         --         --          0
+Entity 1.NVACost                                --         --         --         --          0
+Entity 1.WaitCost                               --         --         --         --          0
+Entity 1.TranCost                               --         --         --         --          0
+Entity 1.OtherCost                              --         --         --         --          0
+Entity 1.TotalCost                              --         --         --         --          0
+ATENDIMENTO NO CAIXA.Queue.WaitingTime      .00000     .00000     .00000     .00000        599    
+ATENDIMENTO NO CAIXA.Queue.WaitingCost      .00000     .00000     .00000     .00000        599    
+Seize Patio.Queue.WaitingTime               593.69     (Corr)     .00000     938.13        600    
+Seize Patio.Queue.WaitingCost               .00000     .00000     .00000     .00000        600    
+Atendimento1.Queue.WaitingTime                  --         --         --         --          0
+Atendimento1.Queue.WaitingCost                  --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+PESSOA.WIP                                  21.818     (Corr)     .00000     54.000     15.000    
+Entity 1.WIP                                2.0000     (Insuf)    .00000     2.0000     2.0000    
+ESPACO.NumberBusy                           3.5368     (Corr)     .00000     6.0000     3.0000    
+ESPACO.NumberScheduled                      3.5277     (Insuf)    2.0000     6.0000     3.0000    
+ESPACO.Utilization                          .99770     .00363     .00000     1.0000     1.0000    
+ATENDENTE1.NumberBusy                       .91983     .00480     .00000     1.0000     1.0000    
+ATENDENTE1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE1.Utilization                      .91983     .00480     .00000     1.0000     1.0000    
+ATENDENTE2.NumberBusy                       .91436     .00883     .00000     1.0000     .00000    
+ATENDENTE2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE2.Utilization                      .91436     .00883     .00000     1.0000     .00000    
+ATENDENTE3.NumberBusy                       .51558     (Insuf)    .00000     1.0000     1.0000    
+ATENDENTE3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE3.Utilization                      .51558     (Insuf)    .00000     1.0000     1.0000    
+ATENDENTE4.NumberBusy                       .36075     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE4.Utilization                      .36075     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE5.NumberBusy                       .29434     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE5.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE5.Utilization                      .29434     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE6.NumberBusy                       .25466     (Insuf)    .00000     1.0000     .00000    
+ATENDENTE6.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATENDENTE6.Utilization                      .25466     (Insuf)    .00000     1.0000     .00000    
+ATENDIMENTO NO CAIXA.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Seize Patio.Queue.NumberInQueue             16.605     (Corr)     .00000     46.000     11.000    
+Atendimento1.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+P4.Station.NumEntTrans                      .03009     (Insuf)    .00000     1.0000     .00000    
+P3.Station.NumEntTrans                      .04352     (Insuf)    .00000     1.0000     .00000    
+SAIDA.Station.NumEntTrans                   .82783     (Corr)     .00000     5.0000     1.0000    
+P2.Station.NumEntTrans                      .07736     .00228     .00000     1.0000     1.0000    
+ENTRADA.Station.NumEntTrans                 .00000     (Insuf)    .00000     .00000     .00000    
+P1.Station.NumEntTrans                      .07824     .00467     .00000     1.0000     .00000    
+P6.Station.NumEntTrans                      .02361     (Insuf)    .00000     1.0000     .00000    
+P5.Station.NumEntTrans                      .02454     (Insuf)    .00000     1.0000     .00000    
+PATIO.Station.NumEntTrans                   .84861     (Corr)     .00000     6.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ATENDIMENTO NO CAIXA Accum VA Cost          .00000    
+ATENDIMENTO NO CAIXA Total Accum Cost       .00000    
+ATENDIMENTO NO CAIXA Number Out             597.00    
+ATENDIMENTO NO CAIXA Number In              599.00    
+ATENDIMENTO NO CAIXA Accum Wait Time        .00000    
+ATENDIMENTO NO CAIXA Accum Wait Cost        .00000    
+ATENDIMENTO NO CAIXA Accum VA Time          70244.    
+ATENDIMENTO NO CAIXA Total Accum Time       70244.    
+PESSOA.NumberIn                             611.00    
+PESSOA.NumberOut                            596.00    
+Entity 1.NumberIn                           2.0000    
+Entity 1.NumberOut                          .00000    
+ESPACO.NumberSeized                         600.00    
+ESPACO.ScheduledUtilization                 1.0025    
+ESPACO.BusyCost                             .00000    
+ESPACO.IdleCost                             .00000    
+ESPACO.UsageCost                            .00000    
+ATENDENTE1.NumberSeized                     169.00    
+ATENDENTE1.ScheduledUtilization             .91983    
+ATENDENTE1.BusyCost                         .00000    
+ATENDENTE1.IdleCost                         .00000    
+ATENDENTE1.UsageCost                        .00000    
+ATENDENTE2.NumberSeized                     167.00    
+ATENDENTE2.ScheduledUtilization             .91436    
+ATENDENTE2.BusyCost                         .00000    
+ATENDENTE2.IdleCost                         .00000    
+ATENDENTE2.UsageCost                        .00000    
+ATENDENTE3.NumberSeized                     94.000    
+ATENDENTE3.ScheduledUtilization             .51558    
+ATENDENTE3.BusyCost                         .00000    
+ATENDENTE3.IdleCost                         .00000    
+ATENDENTE3.UsageCost                        .00000    
+ATENDENTE4.NumberSeized                     65.000    
+ATENDENTE4.ScheduledUtilization             .36075    
+ATENDENTE4.BusyCost                         .00000    
+ATENDENTE4.IdleCost                         .00000    
+ATENDENTE4.UsageCost                        .00000    
+ATENDENTE5.NumberSeized                     53.000    
+ATENDENTE5.ScheduledUtilization             .29434    
+ATENDENTE5.BusyCost                         .00000    
+ATENDENTE5.IdleCost                         .00000    
+ATENDENTE5.UsageCost                        .00000    
+ATENDENTE6.NumberSeized                     51.000    
+ATENDENTE6.ScheduledUtilization             .25466    
+ATENDENTE6.BusyCost                         .00000    
+ATENDENTE6.IdleCost                         .00000    
+ATENDENTE6.UsageCost                        .00000    
+P4.Station.AccumVATime                      7792.1    
+P4.Station.AccumNVATime                     .00000    
+P4.Station.AccumWaitTime                    .00000    
+P4.Station.AccumTranTime                    .00000    
+P4.Station.AccumOtherTime                   .00000    
+P4.Station.TotalAccumTime                   7792.1    
+P4.Station.AccumVACost                      .00000    
+P4.Station.AccumNVACost                     .00000    
+P4.Station.AccumWaitCost                    .00000    
+P4.Station.AccumTranCost                    .00000    
+P4.Station.AccumOtherCost                   .00000    
+P4.Station.TotalAccumCost                   .00000    
+P3.Station.AccumVATime                      11026.    
+P3.Station.AccumNVATime                     .00000    
+P3.Station.AccumWaitTime                    .00000    
+P3.Station.AccumTranTime                    .00000    
+P3.Station.AccumOtherTime                   .00000    
+P3.Station.TotalAccumTime                   11026.    
+P3.Station.AccumVACost                      .00000    
+P3.Station.AccumNVACost                     .00000    
+P3.Station.AccumWaitCost                    .00000    
+P3.Station.AccumTranCost                    .00000    
+P3.Station.AccumOtherCost                   .00000    
+P3.Station.TotalAccumCost                   .00000    
+SAIDA.Station.AccumVATime                   .00000    
+SAIDA.Station.AccumNVATime                  .00000    
+SAIDA.Station.AccumWaitTime                 .00000    
+SAIDA.Station.AccumTranTime                 .00000    
+SAIDA.Station.AccumOtherTime                .00000    
+SAIDA.Station.TotalAccumTime                .00000    
+SAIDA.Station.AccumVACost                   .00000    
+SAIDA.Station.AccumNVACost                  .00000    
+SAIDA.Station.AccumWaitCost                 .00000    
+SAIDA.Station.AccumTranCost                 .00000    
+SAIDA.Station.AccumOtherCost                .00000    
+SAIDA.Station.TotalAccumCost                .00000    
+P2.Station.AccumVATime                      19750.    
+P2.Station.AccumNVATime                     .00000    
+P2.Station.AccumWaitTime                    .00000    
+P2.Station.AccumTranTime                    .00000    
+P2.Station.AccumOtherTime                   .00000    
+P2.Station.TotalAccumTime                   19750.    
+P2.Station.AccumVACost                      .00000    
+P2.Station.AccumNVACost                     .00000    
+P2.Station.AccumWaitCost                    .00000    
+P2.Station.AccumTranCost                    .00000    
+P2.Station.AccumOtherCost                   .00000    
+P2.Station.TotalAccumCost                   .00000    
+ENTRADA.Station.AccumVATime                 .00000    
+ENTRADA.Station.AccumNVATime                .00000    
+ENTRADA.Station.AccumWaitTime               .00000    
+ENTRADA.Station.AccumTranTime               .00000    
+ENTRADA.Station.AccumOtherTime              .00000    
+ENTRADA.Station.TotalAccumTime              .00000    
+ENTRADA.Station.AccumVACost                 .00000    
+ENTRADA.Station.AccumNVACost                .00000    
+ENTRADA.Station.AccumWaitCost               .00000    
+ENTRADA.Station.AccumTranCost               .00000    
+ENTRADA.Station.AccumOtherCost              .00000    
+ENTRADA.Station.TotalAccumCost              .00000    
+P1.Station.AccumVATime                      19817.    
+P1.Station.AccumNVATime                     .00000    
+P1.Station.AccumWaitTime                    .00000    
+P1.Station.AccumTranTime                    .00000    
+P1.Station.AccumOtherTime                   .00000    
+P1.Station.TotalAccumTime                   19817.    
+P1.Station.AccumVACost                      .00000    
+P1.Station.AccumNVACost                     .00000    
+P1.Station.AccumWaitCost                    .00000    
+P1.Station.AccumTranCost                    .00000    
+P1.Station.AccumOtherCost                   .00000    
+P1.Station.TotalAccumCost                   .00000    
+P6.Station.AccumVATime                      5500.7    
+P6.Station.AccumNVATime                     .00000    
+P6.Station.AccumWaitTime                    .00000    
+P6.Station.AccumTranTime                    .00000    
+P6.Station.AccumOtherTime                   .00000    
+P6.Station.TotalAccumTime                   5500.7    
+P6.Station.AccumVACost                      .00000    
+P6.Station.AccumNVACost                     .00000    
+P6.Station.AccumWaitCost                    .00000    
+P6.Station.AccumTranCost                    .00000    
+P6.Station.AccumOtherCost                   .00000    
+P6.Station.TotalAccumCost                   .00000    
+P5.Station.AccumVATime                      6357.7    
+P5.Station.AccumNVATime                     .00000    
+P5.Station.AccumWaitTime                    .00000    
+P5.Station.AccumTranTime                    .00000    
+P5.Station.AccumOtherTime                   .00000    
+P5.Station.TotalAccumTime                   6357.7    
+P5.Station.AccumVACost                      .00000    
+P5.Station.AccumNVACost                     .00000    
+P5.Station.AccumWaitCost                    .00000    
+P5.Station.AccumTranCost                    .00000    
+P5.Station.AccumOtherCost                   .00000    
+P5.Station.TotalAccumCost                   .00000    
+PATIO.Station.AccumVATime                   .00000    
+PATIO.Station.AccumNVATime                  .00000    
+PATIO.Station.AccumWaitTime                 3.5622E+05
+PATIO.Station.AccumTranTime                 .00000    
+PATIO.Station.AccumOtherTime                .00000    
+PATIO.Station.TotalAccumTime                3.5622E+05
+PATIO.Station.AccumVACost                   .00000    
+PATIO.Station.AccumNVACost                  .00000    
+PATIO.Station.AccumWaitCost                 .00000    
+PATIO.Station.AccumTranCost                 .00000    
+PATIO.Station.AccumOtherCost                .00000    
+PATIO.Station.TotalAccumCost                .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            596.00    
+
+
+Simulation run time: 0.23 minutes.
+Simulation run complete.

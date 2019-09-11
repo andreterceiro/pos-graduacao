@@ -1,0 +1,21 @@
+[RESOURCES]
+[VARIABLES]
+Dispose 2.NumberOut
+Dispose 5.NumberOut
+CONTADOR2 IGUAL A 20.NumberOut False
+ESTA FECHADO ?.NumberOut True
+CONTADOR1 IGUAL A 20 ?.NumberOut False
+CREATE Entidade Controladora 2.NumberOut
+CONTADOR1
+CONTADOR2
+ULTIMA TURMA ?.NumberOut False
+CHEGADA.NumberOut
+DISPOSE Saida 2.NumberOut
+FECHA_PORTAO
+CREATE Entidade Controladora.NumberOut
+CONTADOR2 IGUAL A 20.NumberOut True
+ULTIMA TURMA ?.NumberOut True
+TURMA
+Dispose 3.NumberOut
+ESTA FECHADO ?.NumberOut False
+CONTADOR1 IGUAL A 20 ?.NumberOut True

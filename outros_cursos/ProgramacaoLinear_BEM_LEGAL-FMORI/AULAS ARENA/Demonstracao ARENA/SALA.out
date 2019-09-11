@@ -1,0 +1,65 @@
+
+                                      ARENA Simulation Results
+                                            Fernando Mori
+
+                                  Summary for Replication 1 of 1
+
+Project: SINCRONIZACAO                                               Run execution date : 8/ 8/2006
+Analyst: Darci Prado                                                 Model revision date: 8/ 8/2006
+
+Replication ended at time      : 689.43701 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           39.910     (Insuf)    39.910     39.910          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TotalTime                          39.910     (Insuf)    39.910     39.910          1    
+Entity 2.VATime                             .00000     (Insuf)    .00000     .00000         11    
+Entity 2.NVATime                            .00000     (Insuf)    .00000     .00000         11    
+Entity 2.WaitTime                           .00000     (Insuf)    .00000     .00000         11    
+Entity 2.TranTime                           .00000     (Insuf)    .00000     .00000         11    
+Entity 2.OtherTime                          3.7272     (Insuf)    1.0000     4.0000         11    
+Entity 2.TotalTime                          3.7272     (Insuf)    1.0000     4.0000         11    
+PESSOAS.VATime                              .00000     (Insuf)    .00000     .00000        200    
+PESSOAS.NVATime                             .00000     (Insuf)    .00000     .00000        200    
+PESSOAS.WaitTime                            76.283     (Insuf)    .00000     123.51        200    
+PESSOAS.TranTime                            3.2700     (Insuf)    3.0000     5.0000        200    
+PESSOAS.OtherTime                           .00000     (Insuf)    .00000     .00000        200    
+PESSOAS.TotalTime                           79.553     (Insuf)    5.0000     126.51        200    
+HOLD 111.Queue.WaitingTime                  31.691     (Insuf)    .01073     67.012        173    
+HOLD 222.Queue.WaitingTime                  56.497     (Insuf)    56.350     56.500        173    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .05789     (Insuf)    .00000     1.0000     .00000    
+Entity 2.WIP                                .05947     (Insuf)    .00000     1.0000     .00000    
+PESSOAS.WIP                                 23.077     (Corr)     .00000     38.000     .00000    
+HOLD 111.Queue.NumberInQueue                7.9522     1.9914     .00000     22.000     .00000    
+HOLD 222.Queue.NumberInQueue                14.176     (Corr)     .00000     20.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+Entity 2.NumberIn                           11.000    
+Entity 2.NumberOut                          11.000    
+PESSOAS.NumberIn                            200.00    
+PESSOAS.NumberOut                           200.00    
+System.NumberOut                            212.00    
+
+
+Simulation run time: 0.35 minutes.
+Simulation run complete.
