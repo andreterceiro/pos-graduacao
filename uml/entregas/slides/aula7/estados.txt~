@@ -1,0 +1,18 @@
+Pedido
+- Aguardando pagamento
+- Aguardano liberação do estoque
+- Em transporte
+- Entregue
+- Devolvido
+- Cancelado
+
+Boleto
+- Aguardando pagamento
+- Pago
+
+Cliente
+- Ativo
+- Inativo
+
+Produto (comapo estoque)
+- Quantidade
