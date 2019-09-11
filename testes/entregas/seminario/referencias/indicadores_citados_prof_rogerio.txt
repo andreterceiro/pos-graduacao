@@ -1,0 +1,5 @@
+- Número de horas do projeto;
+- Número de horas para corrigir os testes;
+- Número de horas para atividades de teste;
+- Número de erros encontrados pelo teste;
+- Número de erros encontrados pelo cliente 
