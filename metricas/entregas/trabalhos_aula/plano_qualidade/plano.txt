@@ -1,0 +1,71 @@
+Plano de qualidade
+
+1 Introdução
+
+1.1 Definição de terminologias
+
+1.1.1 Garantia de qualidade: 
+O estabelecimento de uma estrutura de procedimentos e de padrões organizacionais, que conduzem ao software de alta qualidade.
+
+1.1.2 Planejamento da qualidade: 
+A seleção de procedimentos e de padrões adequados a partir desta estrutura e a adaptação destes para um projeto específico de software.
+
+1.1.3 Controle de qualidade: 
+A definição e a aprovação de processos que assegurem que os procedimentos e os padrões de qualidade de projeto sejam seguidos pela equipe de desenvolvimento de software.
+
+
+2- Apresentação do produto
+O sisema de e-Matrícula é composto por um software web que objetiva melhorar o processo de matrícula da Faculdade São José.
+
+O sistema permitirá que o aluno consulte a grade, solicite sua matrícula nas disciplinas que desejar  e consulte suas notas via sistema. O sistema também permitirá que seja realizado pelo registrador o controle do processo de matrícula, podendo por exemplo cancelar disciplinas caso não contenham o número mínimo de alunos, abrir o período de matrículas, entre outras funcionalidades.  Aos professores o sistema tambem fornecerá funcionalidades, como candidatar­se para ministrar aulas das disciplinas que escolher e lançar notas.
+
+Tal software deverá comunicar-se com outros sistema da Faculdade São José: sistema de Catálogo de Cursos, sistema de Registro Acadêmico e Sistema Financeiro. Desta forma o sistema de e­Matrícula aproveitará todo o histórico de informações destes sistemas quando necessário.
+
+
+3- Descrições do processo
+
+
+
+4- Plano de produto
+
+Entregas parciais:
+1. Módulo de matrículas entregue (já homologado, em produção) até 07/01/2014
+Com a entrega deste módulo deverá ser possível que os alunos consultem o catálogo de cursos (que atualmente encontram-se no sistema legado) afim de obter informações sobre estes e posteriormente efetuar a matrícula.
+
+2. Módulo de notas entregue até 20/05/2014
+Com a entrega deste módulo deverá ser possível que os professores insiram as notas via Internet e os alunos as consultem.
+
+
+5- Metas de qualidade
+
+5.1 Requisitos não funcionais
+
+5.1.1 Desempenho
+- Deverá ser possível obter o catálogo de cursos em uma consulta via Internet (banda mínima do usuário 1Mbps de download) em até 300ms.
+- Deverá ser possível efetuar enviar o formulário de matrícula e receber a resposta de processamento em até 5s.
+
+5.2 Padrão de codificação
+- Deverá ser seguido no projeto o padrão de codificação XPTO [1]
+
+5.3 Critérios de aceite
+- Todos casos de teste de alta importância [2] deverão ter passar os testes (100%)
+- No mínimo 80% dos casos de teste de média importância deverão passar nos testes
+- No mínimo 70% dos casos de teste de baixa importância deverão passar nos testes
+
+
+6- Riscos e gerenciamento de riscos
+
+6.1 Indisponibilidade do sistema legado
+Problema: Como este possui o catálogo de cursos, caso esteja indisponível, o aluno não poderá efetuar a matrícula e não será possível enviar as informações para o sistema financeiro. 
+Probabilidade: 10%
+Impatco: baixo
+Solução: 
+- Será elaborado um sistema de cache das informações consultadas no sistema legado;
+- Para as informações enviadas ao sistema legado, em caso de indisponibilidade, estas serão gravadas localmente e novas tentativas de envio serão efetuada em intervalos previamente definidos.
+
+6.2 Alto número de requisições em um período específico
+Problema: É provável que no final do processo de matrículas o número de requisições aumente em 5x em relação ao início do período de matrículas. 
+Probabilidade: 70%
+Impacto: crítico
+Solução: Será feito um balanceamento de servidores web e cache de conteúdo estático através do Varnish.
+ 

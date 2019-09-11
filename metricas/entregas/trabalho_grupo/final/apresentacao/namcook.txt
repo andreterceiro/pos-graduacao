@@ -1,0 +1,23 @@
+Namcook Analytics
+
+Capers Jones é um de seus fundadores. Projetou mais de 10 softwares de estimativas de custos, sendo parte comercial e parte para uso interno em empresas. É um palestrante internacional e autor de livros, como "Estimativas de custos de software" e "A Economia da Qualidade de Software"
+
+No site há artigos interessantes, por exemplo um estudo argmentanto que a programação em par exige um investimento que pode ser melhor empregado para se gerar um software com maior qualidade. Pontos:
+- Compensa mais 1 programador senior sozinho do que dois plenos em par
+- 1 programador + análise estática + inspeção gera um produto de maior qualidade que 2 programadores em par
+
+Referências:
+=> A SHORT HISTORY OF THE LINES OF CODE (LOC) METRIC
+- Loc inicialmente era usada para medir economia ($/LOC), produtividade (LOC/tempo) e qualidade (defeitos/LOC). Porém não é adequada para medir atividades de requisitos e projeto. Outras formas de medição / estimativa surgiram para cobrir os defeitos relacionados aos estudos baseados em LoC
+- O autor cita que a produtividade expressa em termos de LoC baixa conforme aumenta o nível da linguagem, o que não tem sentido, mas ao olhar em relação a pontos de função, aumenta. Se você comparar o mesmo projeto feito em Assembly e em Java, a produtividade em Loc de Assembly será maior, mas o projeto será mais caro
+
+=> Murdico:
+- É um site de um indiano testador que "repostou" uma mensagem de Vinnie Murdico, sobre os dados de 3 fontes diferentes em relação a defeitos/kloc. Dá para as ver diferenças:
+- Microsoft
+- uma que cita o método Cleanroom 
+- outra que cita uma "média" da indústria, com um "mix" de linguagens
+
+=> Software defect origin and removal methods
+- Total de defeitos por ponto de função: dependem da maturidade do processo (2 a 7 por ponto de função, com média 5)
+- Defeitos por fase do processo de desenvolvimento: 1,75 na fase de codificação (polêmico)
+- Usa a análise do sofware Risk Master para mostrar que custa mais um processo imaturo, com correções de bugs em produção do que um processo maduro, que custa mais até entrar em produção, mas custa menos no ciclo de vida porque há menos bugs para corrigir. Exemplos que ele usa: com e sem JAD na fase de requisitos, com e sem análise estática etc
