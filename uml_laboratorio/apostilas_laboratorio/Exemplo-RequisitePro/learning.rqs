@@ -1,0 +1,35 @@
+[Application]
+Data file version=1.0038
+Program Version=6.01.0023.1
+
+[MSProjectMappings]
+25=Priority
+35=Start
+5=Cost
+29=Duration
+24=Milestone
+49=ResourceNames
+36=Finish
+
+[Project]
+Owner=admin
+Name=Learning Project
+GUID={F012B6B8-A40D-41C3-8795-5448F9A7B6DA}
+Description=ClassicsCD.com business-to-consumer Web site project
+Owner Key=2
+Revision number=1.0099
+Prefix=
+NbrRequirements=100
+Directory=G:\Aula 1-24-04-Pós-AnaPaula\Exemplo-RequisitePro\learning.rqs
+Key=1
+
+[Documents]
+3=Browse CatalogUCS
+4=Shop for CDUCS
+5=CheckOutUCS
+6=Arrange ShipmentUCS
+7=Check Order StatusUCS
+15=ClassicsCD Supplementary SpecificationSUP
+1=GlossaryGLS
+2=ClassicsCD Vision DocumentVIS
+

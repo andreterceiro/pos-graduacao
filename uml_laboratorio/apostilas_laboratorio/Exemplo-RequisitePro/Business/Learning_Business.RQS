@@ -1,0 +1,19 @@
+[Project]
+Owner=admin
+Name=Learning _Business
+GUID=
+Description=This project contains all business artifacts for the ClassicsCD.com Web shop.
+Owner Key=3
+Revision number=1.0006
+Prefix=BUS
+NbrRequirements=13
+Directory=C:\dbush_RN_Beta_integration\Deployment\install files\samples\Learning_Project\Business\Learning_Business.RQS
+Key=1
+
+[Application]
+Data file version=1.0036
+Program Version=6.00.0015.1
+
+[Documents]
+1=ClassicsCD Business RulesBUS
+
